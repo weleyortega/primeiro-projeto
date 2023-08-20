@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+    
+}
+
+.titulo-destaque {
+    color:#1802bf;
+
+}
+
+.apresentacao {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 8% 10%;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__texto {
+    font-size: 24px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.apresentacao__link {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__link_links {
+
+    background-color: #1802bf;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10.5px 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
